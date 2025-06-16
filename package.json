@@ -1,6 +1,6 @@
 {
   "name": "beycoinfrontend",
-  "version": "0.0.1",
+  "version": "2.01",
   "private": true,
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.13.5",
@@ -32,7 +32,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "react-scripts build",
     "postbuild": "node postbuild.js",
     "lint": "eslint .",
     "preview": "vite preview",
